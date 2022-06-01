@@ -9,3 +9,11 @@ datasource db {
     provider = "sqlite"
     url      = "file:db.db"
 }
+
+// remove this and create your schema
+model Todo {
+    id        Int      @id @default(autoincrement())
+    createdAt DateTime @default(now())
+    title     String
+    completed Boolean  @default(false)
+}
