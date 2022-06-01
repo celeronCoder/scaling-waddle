@@ -18,7 +18,7 @@ const App: Component = () => {
           The content above is loaded from a tRPC endpoint hosted via a Vercel
           serverless function
         </p>
-        <a href="https://github.com/TheoBr/solid-trpc" class={styles.link}>
+        <a href="https://github.com/celeronCoder/scaling-waddle" class={styles.link}>
           Github Repo
         </a>
       </header>
